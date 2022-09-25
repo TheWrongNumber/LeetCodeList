@@ -91,6 +91,11 @@
 
 // @lc code=start
 
+/**
+ * @brief 思路：哈希表 细节：若一个数字右侧的数字比它大，则将该数字的符号取反。
+ * 
+ */
+
 class Solution {
 private:
     unordered_map<char, int> symbolValues = {
